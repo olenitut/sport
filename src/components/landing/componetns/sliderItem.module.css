@@ -1,0 +1,19 @@
+.slider-item {
+  background-color: #fad3b6;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 15px;
+  height: 90%;
+}
+
+.slider-item__title {
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+.slider-item__text {
+  color: #333;
+  font-size: 16px;
+  padding: 20px;
+}

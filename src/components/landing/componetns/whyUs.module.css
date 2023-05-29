@@ -1,0 +1,17 @@
+.why {
+  margin: 100px 0;
+}
+
+.why__heading {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.why__item {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

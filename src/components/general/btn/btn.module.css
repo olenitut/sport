@@ -1,0 +1,27 @@
+.btn {
+  background-color: #f1802d;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 50px;
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  border: 1px solid #f1802d;
+}
+
+.btn:hover {
+  background-color: #c16624;
+  border-color: #c16624;
+  transform: scale(1.1);
+}
+
+.btn--secondary {
+  background-color: #fff;
+  color: #f1802d;
+  font-weight: 500;
+}
+
+.btn--secondary:hover {
+  background-color: #fff;
+  border-color: #f1802d;
+}
