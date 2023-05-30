@@ -1,9 +1,14 @@
 .slider-item {
+  box-sizing: border-box;
   background-color: #fad3b6;
-  padding: 10px;
+  padding: 15px;
   border-radius: 20px;
-  margin-right: 15px;
-  height: 90%;
+  margin-right: 25px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
 }
 
 .slider-item__title {
@@ -11,9 +16,19 @@
   font-size: 20px;
   text-align: center;
   font-weight: 500;
+  margin: 0;
 }
 .slider-item__text {
+  margin: 0;
   color: #333;
   font-size: 16px;
-  padding: 20px;
+  padding: 10px 0;
+}
+.slider-item__img {
+  height: 60px;
+}
+.slider-item__container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
